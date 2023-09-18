@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background-color:lightblue; */
+        }
+
+        section.content {
+            /* background-color: antiquewhite; */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50pt;
+            margin-bottom: 20px;
+        }
+
+        form {
+            /* background-color: gainsboro; */
+            min-width: 500px;
+            width: 70%;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form span.search-icon {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            /* background-color: blanchedalmond; */
+        }
+
+        form input.search-entry {
+            width: 90%;
+            height: 30px;
+            border: none;
+            /* border-radius: 15px; */
+        }
+
+        form input.search-button {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: pink;
+        }
+
+        div.entry-group {
+            display: inline-block;  
+            width: calc(30px + 80%);
+            height: 38px;
+            background-color: rosybrown;
+            border: 1px gray;
+            border-radius: 19px;
+            line-height: 38px;
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <section class="content">
+        <h1>
+            <span style="color: lightcoral">G</span><span style="color:paleturquoise">o</span><span style="color: lightgreen">o</span><span style="color: midnightblue">g</span><span style="color: darkgrey">l</span><span style="color: powderblue">e</span>
+        </h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+                <span class="search-icon">🔎</span>
+                <input class="search-entry" type="text" name="q" id="" placeholder="Find your idea">
+            </div>
+            <input class="search-button" type="submit" value="💕">
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
